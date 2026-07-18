@@ -160,6 +160,11 @@ MonoBehaviour:
   _runSpeed: 15
   _cameraSensitivity: 5
   _jumpHeight: 2
+  _maxHealth: 100
+  _currentHealth: 0
+  _healthBar: {fileID: 0}
+  _deathScreen: {fileID: 0}
+  _damageFlashDuration: 0.2
 --- !u!143 &941998837
 CharacterController:
   m_ObjectHideFlags: 0
@@ -522,7 +527,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 626fd7fb9bec7474db7c73797182ae7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
