@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _walkSpeed = 10.0f;
     [SerializeField] private float _runSpeed = 15.0f;
     [SerializeField] private float _cameraSensitivity = 5.0f;
-    [SerializeField] private float _jumpHeight = 2.0f;
+    [SerializeField] private float _jumpHeight = 1f;
 
     [Header("здоровье/Health")]
     [SerializeField] private int _maxHealth = 100;
